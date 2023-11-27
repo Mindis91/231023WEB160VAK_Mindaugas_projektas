@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+header{
+   min-height: 100vh;
+    background-image: url('../photos/drift.png');
+    background-size: cover;
+    background-position: center;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
