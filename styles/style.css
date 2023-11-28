@@ -9,21 +9,84 @@ header{
     background-image: url('../photos/drift.png');
     background-size: cover;
     background-position: center;
+    
 }
+.topTop{
+    width: 1240px;
+    margin: 0 auto;
+}
+
 .top{
     display: flex;
     justify-content: space-between;
     padding: 0 100px;
+   
 }
 
 .logo{
     display: flex;
     align-items: center;
-    gap: 50px;
-    
+    gap: 50px; 
 }
+
 .icon{
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
+}
+.bottomLine{
+    position: absolute;
+    width: 1240px;
+    left: 50px;
+    bottom: 50px;
+    /* transform: translateX(-50%); */
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.language{
+    color: #FFE603;
+
+}
+.social{
+    color: white;
+}
+
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    'side bigerPhoto'
+    'side sidePhoto';
+    background-color: rgb(255, 255, 255);
+    width: 1240px;
+    margin: 0 auto;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.pageBottom{
+    display: grid;
+    background-color: #070C10;
+    grid-area: footer;
+    justify-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    
+}
+.bottomColor{
+   
 }
