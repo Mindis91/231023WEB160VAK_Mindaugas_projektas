@@ -12,7 +12,7 @@ header{
     
 }
 .topTop{
-    width: 1240px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -36,13 +36,13 @@ header{
 }
 .bottomLine{
     position: absolute;
-    width: 1240px;
+    width: 92%;
     left: 50px;
     bottom: 50px;
     /* transform: translateX(-50%); */
     display: flex;
     justify-content: space-between;
-   align-items: center;
+    align-items: center;
 }
 .language{
     color: #FFE603;
@@ -62,16 +62,26 @@ header{
     'side sidePhoto';
     background-color: rgb(255, 255, 255);
     width: 1240px;
+    height: 910px;
     margin: 0 auto;
     grid-gap: 10px;
     padding: 10px;
 }
+.sidePhotos{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 740px;
+    top: -510px;
+}
+
 
 .pageBottom{
     display: grid;
     background-color: #070C10;
     grid-area: footer;
     justify-items: center;
+    
 }
 
 a{
